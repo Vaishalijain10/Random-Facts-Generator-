@@ -1,0 +1,47 @@
+/* Set basic styles for the body to ensure good readability and center content */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c98585;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the main heading to make it stand out */
+h1 {
+  font-size: 2.5rem;
+  color: #171a17;
+  margin-bottom: 20px;
+}
+
+/* Style the button to make it more attractive and interactive */
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #1c1e1c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change button color when hovering */
+button:hover {
+  background-color: #575b57;
+}
+
+/* Style the h3 element where the fact will be displayed */
+h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #eb1919;
+  text-align: center;
+  max-width: 600px;
+  word-wrap: break-word;
+}
